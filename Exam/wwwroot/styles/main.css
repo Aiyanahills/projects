@@ -1,0 +1,155 @@
+
+html{
+    scroll-behavior: smooth;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.body{
+    background: linear-gradient(45deg, #000000, #363636, #000000)
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    position: fixed;
+    width: 98%;
+}
+
+.leftSide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 43rem;
+}
+
+/* .rightSide{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40rem;
+} */
+
+.Logo{
+    width: 10rem;
+}
+
+.btn{
+    height: 2rem;
+    background-color: rgb(143, 11, 184);
+    border-radius: 2rem;
+    border: 2px #000000;
+    color: aliceblue;
+    width: 6rem;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.sect{
+    font-size: x-large;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+    margin: 3rem 0 0 2rem;
+}
+
+.MainBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutAuthor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.MotivationBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Back{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .SignUp{
+    margin: 0 0 0 1rem;
+} */
+
+.form{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btnForm{
+    width: 5rem;
+    margin: 2rem 0 0 15rem ;
+
+    height: 2rem;
+
+    background-color: rgb(117, 22, 146);
+    border-radius: 2rem;
+
+    color: aliceblue;
+
+    width: 5rem;
+}
+
+.ref{
+    color: white;
+}
+
+.message {
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.message.success {
+    background-color: #22c55e;
+    color: white;
+}
+
+.message.error {
+    background-color: #ef4444;
+    color: white;
+}
+
+#contactForm label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#contactForm input,
+#contactForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

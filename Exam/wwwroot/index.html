@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js"></script>
+</head>
+
+<body class="body">
+
+    <header class="top">
+
+        <div class="leftSide">
+            <h1 class="Logo">Chugunov</h1>
+
+            <a href="#MainBlock">
+                <button class="btn btnMain" onclick="">
+                    Main
+                </button>
+            </a>
+
+            <a href="#Projects">
+                <button class="btn btnProjects">
+                    Projects
+                </button>
+            </a>
+
+            <a href="#AboutAuthor">
+                <button class="btn btnAutor">
+                    About Author
+                </button>
+            </a>
+
+            <a href="#MotivationBlock">
+                <button class="btn btnMotiv">
+                    Motivation
+                </button>
+            </a>
+
+            <a href="#Back">
+                <button class="btn btnBack">
+                    Back
+                </button>
+            </a>
+        </div>
+
+        <!-- <div class="rightSide">
+
+            <button class="btn SignIn">
+                Sign in
+            </button>
+
+            <button class="btn SignUp">
+                Sign up
+            </button>
+        </div> -->
+
+    </header>
+
+    <main class="main">
+        <section class="sect MainBlock" id="MainBlock">
+            <p>Обо мне</p>
+            <p>Меня зовут Матвей, я начинающий web, системный и сетевой программист
+            У меня есть навыки разработки web страниц и приложений на ASP.NET Core,
+            разработки игр на Unity, а также разработки desktop приложений</p>
+        </section>
+
+        <section class="sect Projects" id="Projects">
+            <p>Мои проекты</p>
+            <ol>
+                <li>Игра на Unity</li>
+                <li>Web-страница</li>
+                <li>Мессенжер в локальной сети</li>
+            </ol>
+        </section>
+
+        <section class="sect AboutAuthor" id="AboutAuthor">
+            <p>Как связаться со мной</p>
+            <ul>
+                <li>
+                    <p>GitHub: </p>
+                    <a href="https://github.com/Aiyanahills" class="ref">https://github.com/Aiyanahills</a>
+                </li>
+                <li>
+                    <p>Gmail: <br>emptyreviacc@gmail.com</p>
+                </li>
+                <li>
+                    <p>Number: <br>+7 917 232 00 33</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="sect MotivationBlock" id="MotivationBlock">
+            <p>Мотивация</p>
+            <p>Каждый баг — не тупик, а компас. Каждый новый инструмент — не угроза, а повод стать сильнее. Ты не обязан знать всё. Ты обязан уметь разбираться. <br><br>
+Идеального момента не существует. Его нет в тикетах, спринтах и роадмапах. Есть только твой редактор, твоя логика и готовность сделать следующий шаг. <br><br>
+Пиши. Тестируй. Рефактори. Делись. Не жди разрешения на рост.
+Твой код уже решает чьи-то задачи, экономит часы, соединяет людей. Сделай его ещё надёжнее. <br><br>
+Открой проект. Напиши следующую функцию. Двигайся вперёд. <br><br>
+git commit -m "Прогресс зафиксирован. Идём дальше."</p>
+        </section>
+
+        <section class="sect Back" id="Back">
+            <p>Обратная связь</p>
+            <div id="formSuccess" class="message success" style="display:none;">✅ Форма успешно отправлена!</div>
+            <div id="formError" class="message error" style="display:none;">❌ Ошибка отправки</div>
+
+            <form id="contactForm" class="form">
+                <label for="userName">Name:</label>
+                <input type="text" id="userName" name="userName" required>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic" required>
+                    <option value="Main block">Main block</option>
+                    <option value="Projects">Projects</option>
+                    <option value="About Author">About Author</option>
+                    <option value="Motivation">Motivation</option>
+                </select>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="text">Text:</label>
+                <input type="text" id="text" name="text" required>
+
+                <button type="submit" class="btnForm">Send</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
